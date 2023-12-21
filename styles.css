@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #0d242b;
+}
+.canvas-container{
+    padding-top: 5%;
+    text-align: center;
+}
+canvas {
+    min-height: 700px;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    display: flex;
+    background: #0e121a;
+    justify-content: center;
+    
+    border-radius: 10px;
+}
